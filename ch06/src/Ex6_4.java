@@ -1,4 +1,3 @@
-package ch06;
 class MyMath {
     void printGugudan(int dan) {
          if(!(2<=dan && dan <=9 ))
@@ -9,7 +8,7 @@ class MyMath {
             
         }
     }
-    
+
     long add(long a, long b) {
         long result;
         return result = a + b;
@@ -61,5 +60,7 @@ public class Ex6_4 {
         System.out.println("subtract(5L, 3L) = " + result2);
         System.out.println("multiply(5L, 3L) = " + result3);
         System.out.println("divide(5L, 3L) = " + (float)result4);
+
+
     }
 }
